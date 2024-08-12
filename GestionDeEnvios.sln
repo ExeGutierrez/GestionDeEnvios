@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeEnvios.Server", "GestionDeEnvios.Server\GestionDeEnvios.Server.csproj", "{76B059F0-3A7F-4338-9FBB-E194F30BA64F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDeEnvios.DB", "GestionDeEnvios.DB\GestionDeEnvios.DB.csproj", "{4C3AF360-E931-4061-80CB-20AC42919C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B059F0-3A7F-4338-9FBB-E194F30BA64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B059F0-3A7F-4338-9FBB-E194F30BA64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B059F0-3A7F-4338-9FBB-E194F30BA64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B059F0-3A7F-4338-9FBB-E194F30BA64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3AF360-E931-4061-80CB-20AC42919C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3AF360-E931-4061-80CB-20AC42919C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3AF360-E931-4061-80CB-20AC42919C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3AF360-E931-4061-80CB-20AC42919C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B49CC7F9-09A2-4B17-9E51-61FC29EE9959}
+	EndGlobalSection
+EndGlobal

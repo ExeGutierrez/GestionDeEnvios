@@ -1,0 +1,6 @@
+@GestionDeEnvios.Server_HostAddress = http://localhost:5273
+
+GET {{GestionDeEnvios.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
