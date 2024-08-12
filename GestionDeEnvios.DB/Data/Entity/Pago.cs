@@ -18,7 +18,7 @@ namespace GestionDeEnvios.DB.Data.Entity
         public DateTime FechaPago { get; set; }
         [Required(ErrorMessage = "La fecha de pago es obligatorio")]
         [Range(typeof(DateTime), "01/01/2000", "12/31/2024",
-            ErrorMessage = "La fecha debe estar entre {1} y {2}")]]
+            ErrorMessage = "La fecha debe estar entre {1} y {2}")]
         public ServRep ServReps { get; set; }
         List<ServRep> Servers { get; set; }
 

@@ -16,6 +16,6 @@ namespace GestionDeEnvios.DB.Data.Entity
         public string Tipo { get; set; }
 
         public string Contacto { get; set; }
-        [Required(ErrorMessage = "El Contacto es obligatorio")]
+
     }
 }
